@@ -134,10 +134,10 @@
     .topnav a.icon {
         display: block;
         float: right;
-        margin-top: -13px;
-        margin-right: 25px;
+        margin-top: -35px;
+        margin-right: 55px;
         color: #fff;
-        font-size: 35px;
+        font-size: 70px;
     }
     .topnav a:hover {
         border: 0;
@@ -157,7 +157,7 @@
     }
     .topnav.responsive a.icon {
         position: absolute;
-        top: -123px;
+        top: -145px;
         right: -100px;
     }
     .topnav.responsive a {
