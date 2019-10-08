@@ -115,6 +115,89 @@
         margin-left: 20%;
     }
 }
+@media screen and (max-width: 1441px) {
+    nav {
+        margin-left: 26%;
+    }
+
+    .about_right {
+        margin-left: 130px;
+    }
+    .about_right h1 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1365px){
+    nav {
+        margin-left: 20%;
+    }
+
+    .wrapper {
+        width: 60%;
+    }
+    .main_about {
+        flex-direction: column;
+    }
+    .about_left {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .about_right {
+        text-align: center;
+        margin-left: 0;
+    }
+    .about_right h1 {
+        font-size: 44px;
+    }
+    .about_right p {
+        font-size: 26px;
+    }
+    .about_right li {
+        font-size: 24px;
+    }
+
+    .main_team .wrapper {
+        width: 85%;
+    }
+    .card h4 {
+        font-size: 28px;
+    }
+    .position {
+        font-size: 24px;
+    }
+    .about_position {
+        font-size: 18px;
+    }
+
+    .main_services .wrapper {
+        width: 85%;
+    }
+    .main_services p {
+        font-size: 24px;
+    }
+    .services_card p {
+        font-size: 18px;
+    }
+
+    .main_work .wrapper {
+        width: 85%;
+    }
+    .main_work p {
+        font-size: 22px;
+    }
+
+    .main_testimonials p {
+        font-size: 20px;
+    }
+
+    .main_contact p {
+        font-size: 18px;
+    }
+
+    .form_inputs {
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 1240px){
     nav {
         margin-left: 10%;
@@ -217,13 +300,13 @@
         height: 150px;
     }
     .card h4 {
-        font-size: 30px;
+        font-size: 36px;
     }
     .position {
-        font-size: 26px;
+        font-size: 30px;
     }
     .about_position {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .main_services h1 {
@@ -260,6 +343,9 @@
         font-size: 28px;
     }
 
+    .main_contact .wrapper {
+        width: 70%;
+    }
     .main_contact h1 {
         font-size: 56px;
     }
@@ -268,6 +354,73 @@
     }
     .form_inputs {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .main_welcome h1 {
+        font-size: 54px;
+    }
+    .main_welcome p {
+        font-size: 26px;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+    .about_right h1 {
+        font-size: 54px;
+    }
+    .about_right p {
+        font-size: 26px;
+    }
+    .about_right li {
+        font-size: 21px;
+    }
+
+    .main_team .wrapper {
+        width: 85%;
+    }
+    .main_team h1 {
+        font-size: 54px;
+    }
+    .position {
+        font-size: 30px;
+    }
+    .card p {
+        font-size: 26px;
+    }
+
+    .main_services h1 {
+        font-size: 54px;
+    }
+    .main_services p {
+        font-size: 26px;
+    }
+
+    .main_clients h1 {
+        font-size: 54px;
+    }
+
+    .main_work h1 {
+        font-size: 54px;
+    }
+    .main_work p {
+        font-size: 26px;
+    }
+
+    .main_testimonials h1 {
+        font-size: 54px;
+    }
+    .main_testimonials p {
+        font-size: 26px;
+    }
+
+    .main_contact h1 {
+        font-size: 54px;
+    }
+    .main_contact p {
+        font-size: 26px;
     }
 }
 
