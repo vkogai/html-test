@@ -335,6 +335,15 @@
     .main_work p {
         font-size: 26px;
     }
+    .line1 img:not(:first-of-type) {
+        display: none;
+    }
+    .line2 img:not(:first-of-type) {
+        display: none;
+    }
+    .line3 img:not(:first-of-type) {
+        display: none;
+    }
 
     .main_testimonials h1 {
         font-size: 56px;
